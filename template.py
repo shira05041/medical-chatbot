@@ -12,6 +12,7 @@ list_of_files = [
     'research/trials.ipynb',
     'requirements.txt',
     'app.py',
+    'pyproject.toml',
 ]
 
 for file in list_of_files:

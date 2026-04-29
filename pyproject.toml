@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medical-chatbot"
+version = "0.0.0"
+description = "A medical chatbot application"
+authors = [
+    { name="Shira Weissman", email="shira05041@gmail.com" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
